@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
+    <script src="https://kit.fontawesome.com/b690895109.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+2&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav>
+        <button onclick="drop()">&#9776;</button>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#whats">What's </a></li>
+            <li><a href="#rules">Rules</a></li>
+            <li><a href="#join">Join</a></li>
+        </ul>
+        <div class="logo">
+            <h1>photography</h1>
+            <i class="fas fa-camera"></i>
+        </div>
+        <i class="fas fa-user-circle" title="join us"></i>
+    </nav>
+    <div id="drop-down">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#whats">What's </a></li>
+            <li><a href="#rules">Rules</a></li>
+            <li><a href="#join">Join</a></li>
+        </ul>
+    </div>
+    <section id="home">
+        <img src="images/wallpaper.jpg" alt="photography image">
+        <div id="quote">Dont Shot What It Looks Likes. <br> Shoot What It Feels Like.</div>
+    </section>
+    <section  id="whats">
+        <div id="slider">
+            <img src="images/image4.jpg" alt="images">
+            <img src="images/image3.jpg" alt="images">
+            <img src="images/image2.jpg" alt="images">
+        </div>
+        <div id="defination">
+            <h2>What Is photography ?</h2>
+            <p>Photography is the art,</p><br>
+            <p>application and practice of creating durable images by recording light or other electromagnetic radiation, either electronically by means of an image sensor</p>
+        </div>
+    </section>
+    <section id="rules">
+        <div id="rules-text">
+            <h2>Rules Of Photography</h2>
+            <p>Fill The Fram/Cropping</p>
+            <p>Don't Cut Off Limbs </p>
+            <p>Watch The Background</p>
+            <p>Simplify – Know Your Focus</p>
+            <p>Look For Symmetry/Patterns</p>
+        </div>
+      <div id="rules-images">
+          <img src="images/image8.jpg" alt="image">
+          <img src="images/image5.jpg" alt="image">
+          <img src="images/image6.jpg" alt="image">
+          <img src="images/image7.jpg" alt="image">
+          <img src="images/image1.jpg" alt="image">
+      </div>
+    </section>
+    <section id="join">
+        <div id="form">
+            <h2>Join Us </h2>
+           <form action="unknown.php">
+               <label>Your Name</label>
+               <input type="text">
+               <label>Email address</label>
+               <input type="text">
+               <label>Password</label>
+               <input type="password">
+               <label>Confirm Password</label>
+               <input type="password">
+               <input type="submit">
+           </form>
+        </div>
+    </section>
+    <footer>
+       <p> © Copyright Reserved 2020</p>
+    </footer>
+</body>
+<script>
+let  counter=false
+function close(){
+        dropdown.style.display="none"
+    }
+function drop(){
+    let dropdown=document.getElementById('drop-down')
+    if(counter==false){
+        dropdown.style.display="none"
+        counter=true
+    }
+    else if (counter==true){
+        dropdown.style.display="block"
+        // setTimeout(close(),4000)
+        counter=false
+    }
+   
+}
+</script>
+</html>

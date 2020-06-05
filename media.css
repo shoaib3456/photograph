@@ -1,0 +1,201 @@
+@media screen and (max-width:650px){
+    .fa-user-circle{
+        margin-left: 40vw;
+    }
+}
+@media screen and (max-width:800px){
+    /* section 2 media  */
+    #whats{
+        flex-direction: column;
+        justify-content: center;
+    }
+    #slider {
+        left: 25%;
+        top: 10%;
+    }
+    #defination{
+        top:10%;
+        left: 25%;
+        display: flex;
+        flex-direction: column;
+        width: 75vw;
+        height: 50vh;
+     }
+     #defination h2{
+        font-size: 5.25vw;
+   }
+   #defination p:nth-child(2){
+        font-size: 2.75vw;
+   }
+   #defination p:nth-child(4){
+        font-size: 2.25vw;
+        width: 60vw;
+   }
+   /* section 3 media  */
+   #rules{
+       flex-direction: column;
+       height: 90vh;
+   }
+   #rules-images{
+    width:50vw;
+    top: 20%;
+    left: 25%;
+    height: 50%;
+}
+#rules-text h2{
+    font-size: 4.25vw;
+    display: inline;
+}
+
+#rules-text{
+  position: relative;
+  left: 27%;
+  top: 10%;
+  width: 40vw;
+}
+#rules-text p{
+    font-size: 2.25vw;
+    display: inline;
+}
+/* section 4 media */
+form{
+    display: flex;
+    flex-direction: column;
+    width: 60vw;
+}
+#form h2{
+    font-size: 5vw;
+}
+form input{
+    font-size: 3vw;
+}
+form input[type=submit]{
+    font-size: 2vw;
+}
+form label{
+    font-size: 3vw;
+}
+footer{
+    font-size: 4vw;
+    height: 10vh;
+}
+
+}
+@media screen and (max-width:500px){
+    #whats{
+        height: 90vh;
+    }
+    #slider {
+        width: 60%;
+        height: 60%;
+        left: 25%;
+        top: 10%;
+    }
+    #defination{
+        position: relative;
+        top:1%;
+        left: 25%;
+     }
+    #defination h2{
+        font-size: 6vw;
+   }
+   #defination p:nth-child(2){
+    font-size: 4.75vw;
+}
+#defination p:nth-child(4){
+    font-size: 3.25vw;
+    width: 60vw;
+}
+    /* section 3 media  */
+    #rules{
+        flex-direction: column;
+        height: 70vh;
+    }
+    #rules-images{
+    width:70vw;
+    top: 20%;
+    left: 15vw;
+    height: 50%;
+    }
+    #rules-text h2{
+    font-size: 6vw;
+    }
+
+    #rules-text{
+    position: relative;
+    left: 20vw;
+    top: 10%;
+    width:60vw;
+    }
+    #rules-text p{
+    font-size:3vw;
+    }
+    /* section 4 media */
+form{
+    display: flex;
+    flex-direction: column;
+    width: 60vw;
+}
+#form h2{
+    font-size: 5vw;
+}
+form input{
+    font-size: 3vw;
+}
+form input[type=submit]{
+    font-size: 2vw;
+}
+form label{
+    font-size: 3vw;
+}
+#join{
+    height: 80vh;
+}
+#quote{
+    position: absolute;
+    top: 10%;
+    left: 50%;
+}
+.fa-user-circle{
+    margin-left: 35vw;
+    font-size: 10vw;
+
+}
+footer{
+    font-size: 4vw;
+    height: 10vh;
+}
+nav {
+    min-height: 6%;
+}
+#drop-down{
+    top: 6%;
+}
+.logo h1{
+    font-size: 4vw;
+}
+
+}
+
+@media screen and (max-width:600px){
+     nav ul {
+         display: none;
+     }   
+     .fa-user-circle{
+        margin-left: 60vw;
+        font-size: 2vw;
+    }
+    nav button{
+        display: block;
+    }
+    .logo{
+        margin-left: 5%;
+    }
+    .logo h1{
+        font-size: 3vw;
+        
+    }
+    .fa-user-circle{
+        font-size: 3vw;
+    }
+}
